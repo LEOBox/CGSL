@@ -1,0 +1,5 @@
+module CGSL [system] {
+    header "/usr/include/gsl/gsl_vector.h"
+    link "gsl"
+    export *
+}
